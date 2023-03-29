@@ -1,6 +1,8 @@
 import './style.css';
 import popup from './modules/comments_pop';
+import render from './modules/render';
 
+render();
 popup();
 
 // const renderAPI = async () => {
