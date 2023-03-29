@@ -1,4 +1,7 @@
 import './style.css';
+import popup from './modules/comments_pop';
+
+popup();
 
 // const renderAPI = async () => {
 //   const cardRender = [];
