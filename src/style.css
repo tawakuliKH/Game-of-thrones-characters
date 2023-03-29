@@ -15,7 +15,7 @@ body {
 }
 
 .card {
-    width: 18rem;
+  width: 18rem;
 }
 
 .card-section:hover {
@@ -69,7 +69,7 @@ body {
 .close {
   display: flex;
   justify-content: flex-end;
-  color: #aaaaaa;
+  color: #aaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
