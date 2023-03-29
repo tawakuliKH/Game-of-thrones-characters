@@ -1,0 +1,14 @@
+body {
+    background-color: #faebd7;
+}
+
+.card-text {
+    text-align: end;
+}
+
+.description-buttons {
+    display: flex;
+    text-align: end;
+    justify-items: center;
+    flex-direction: column;
+}
