@@ -1,5 +1,5 @@
-
 import { getLikes } from './apiConfig';
+
 const likesCount = async (index) => {
   const likesJson = await getLikes();
   let likeTotal = 0;
@@ -8,4 +8,5 @@ const likesCount = async (index) => {
   });
   return likeTotal;
 };
+
 export default likesCount;

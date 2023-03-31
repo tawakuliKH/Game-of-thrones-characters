@@ -1,5 +1,6 @@
 import { postLikes } from './apiConfig';
 import likesCount from './likesCount';
+
 const likes = async () => {
   const likeBtn = document.querySelectorAll('.btn-like');
   const badge = document.querySelectorAll('.badge');

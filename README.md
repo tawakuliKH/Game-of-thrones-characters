@@ -1,11 +1,32 @@
 <a name="readme-top"></a>
 
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
+
+Modify this file to match your project and remove sections that don't apply.
+
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
+
+OPTIONAL SECTIONS:
+- FAQ
+
+After you're finished please remove all the comments and instructions!
+-->
 
 <div align="center">
-  
-
-  <h3><b>Leaderboard</b></h3>
-
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -34,45 +55,56 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Leaderboard] <a name="about-project"></a>
+# 📖 Game of Thrones Characters <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[Leaderboard]**: The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
-
+**Game of Thrones Characters** is a simple project developed by javascript and webpack use of API, The data depends on the Thrones API which involves all the characters in Game of Thrones series and their informations.
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://html.com/">HTML</a></li>
+  <li><a href="https:///">HTML & CSS</a></li>
+  <li><a href="https:///">Javascript</a></li>
+  <li><a href="https:///">ES6</a></li>
+  <li><a href="https:///">Webpack</a></li>
+  <li><a href="https:///">API</a></li>
+  <li>
   </ul>
- <ul>
-    <li><a href="https://styles.com/">CSS</a></li>
-  </ul>
-  <ul>
-    <li><a href="https://jsdocs.com/">JavaScript</a></li>
-  </ul>
-  
 </details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+  </ul>
+</details>
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[Display scores]**
-
-
+- **Webpack Implementation**
+- **API Implementation**
+- **Css Loaders**
+- **GitFlow**
+- **Real world need project**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+- [Watch Demo here](https://tawakulikh.github.io/Game-of-thrones-characters/?#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,40 +112,67 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
-In order to run this project you need to:
-- Install Git
-- Install NPM
-- Have working browser
-- Good internet connection
-- Install a code editor like Visual Studio Code
-- Install Live Server plugging in Visual Studio Code
+
+In order to run this project you need to :
+1- install node.js and npm
+
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
+
 ### Setup
+
 Clone this repository to your desired folder:
-- Choose a directory
-- Open a Terminal
-- write: git clone https://github.com/danielochuba/Leaderboard
-- get into to directory "portfolio_mobile_mainpage"
-- write: npm install
+
+
+
+```sh
+  cd my-folder
+  git git@github.com:tawakuliKH/Game-of-thrones-characters.git
+  cd Game-of-Thrones
+  npm install webpack webpack-cli --save-dev
+  npm install --save lodash
+  npm install --save-dev html-webpack-plugin
+  npm install file-loader
+```
+
+
 ### Install
-Install this project with linters:
-- On your branch create .github/workflows/linters.yml
-- Do not make any changes in config files
-- Create .gitignore/ and instert node_modules/
-- On the terminal run npm install --save-dev hint@7.x
-- Copy .hintrc to the root directory of your project.
-- Run npx hint .
-- Run npx eslint .
-- Fix linter errors.
+
+Install this project with:
+
+<!--
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
+--->
+
 ### Usage
+
 To run the project, execute the following command:
-- Open the project by launching the Live Server plugging in visual studio code
+
+
+
+```sh
+  npm run build
+  npm start
+```
+
 
 ### Run tests
 
-To run tests, run the following command:
+No Tests Necessary.
 
 <!--
 Example command:
@@ -123,7 +182,17 @@ Example command:
 ```
 --->
 
+### Deployment
 
+
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,13 +200,18 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
 
-👤 **Daniel Ochuba**
+👤 **Author1**
+
+- GitHub: [@tawakuliKH](https://github.com/tawakuliKH)
+- Twitter: [@twitterhandle](https://twitter.com/KhadimTawakuli)
+- LinkedIn: [@Mori](https://linkedin.com/in/linkedinhandle)
+
+👤 **Author2**
 
 - GitHub: [@danielochuba](https://github.com/danielochuba)
-- Twitter: [@ochuba_daniel](https://twitter.com/ochuba_daniel)
-- LinkedIn: [@daniel_ochuba](www.linkedin.com/in/daniel-ochuba-614572238)
+- Twitter: [@daniel](https://twitter.com/daniel)
+- LinkedIn: [@daniel](https://linkedin.com/in/daniel)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -146,11 +220,8 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Button Styles]**
-- [ ] **[Dynamic Page]**
-- [ ] **[API ]**
+- [ ] **Apply a better user friendly interface**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,31 +231,44 @@ Example command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/tawakuliKH/Game-of-thrones-characters/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
 
-
-If you like this project you can give me a star
+If you like this project please give me a comment.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements">I would like to thank  Microverse for this opportunity to learn </a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 
+I would like to thank Microverse for inspiring students doing such great things.
 
-## 📝 License <a name="license"></a>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./MIT.md) licensed.
+<!-- FAQ (optional) -->
+
+## ❓ FAQ (OPTIONAL) <a name="faq"></a>
+
+
+- **How did you use to record the data dynamically**
+
+  - I am recording data in Leaderboard API and fetching it.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
