@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+
+body {
+  background: rgb(129, 127, 158);
+  background: linear-gradient(90deg, rgba(129, 127, 158, 1) 0%, rgba(147, 147, 147, 1) 17%, rgba(0, 212, 255, 1) 100%);
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card-text {
+  text-align: end;
+}
+
+.card-section {
+  box-shadow: 4px 4px 4px 4px rgba(252, 6, 6, 0.2);
+}
+
+.card {
+  width: 18rem;
+}
+
+.card-section:hover {
+  transform: scale(1.07);
+}
+
+.card-img-top {
+  height: 280px;
+}
+
+.description-buttons {
+  display: flex;
+  text-align: end;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: beige;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 10px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.popup-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.close {
+  display: flex;
+  justify-content: flex-end;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pops-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.pop-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-top {
+  width: 100%;
+  height: 500px;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+}
+
+.status {
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
