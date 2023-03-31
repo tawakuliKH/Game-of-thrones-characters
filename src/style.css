@@ -87,10 +87,11 @@ body {
 }
 
 .pops-content {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-self: center;
+  align-items: center;
   gap: 20px;
 }
 
@@ -102,7 +103,8 @@ body {
 }
 
 .image-top {
-  width: 60%;
+  width:100%;
+  height: 500px;
 }
 
 .comment-form {
@@ -117,4 +119,15 @@ body {
   align-items: center;
   justify-content: center;
   background-color: beige;
+}
+
+.status {
+  width: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
 }
