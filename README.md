@@ -104,7 +104,7 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-- [Watch Demo here](https://tawakulikh.github.io/Game-of-thrones-characters/?#)
+- [Watch Demo here](https://tawakulikh.github.io/Game-of-thrones-characters/dist/?#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
