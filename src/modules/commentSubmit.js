@@ -1,4 +1,4 @@
-import { postComment, getComment } from './apiConfig';
+import { postComment, getComment } from './apiConfig.js';
 
 const commentShow = async (id) => {
   const comments = await getComment(id);
@@ -7,6 +7,7 @@ const commentShow = async (id) => {
   if (comments.length > 0) {
     commentsCount = comments.length;
   }
+
   userComments.innerHTML = ` 
   <h3> Comments(${commentsCount})</h3>
   <tr>
@@ -14,6 +15,7 @@ const commentShow = async (id) => {
   <td><b>UserName</b></td>
   <td><b>Comment</b></td>
 </tr>`;
+
   comments.forEach((comment) => {
     userComments.innerHTML += `
   <tr>

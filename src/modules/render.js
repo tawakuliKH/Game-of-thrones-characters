@@ -1,6 +1,6 @@
-import { getCharacters, getLikes } from './apiConfig';
-import popup from './comments_pop';
-import likes from './likesSubmit';
+import { getCharacters, getLikes } from './apiConfig.js';
+import popup from './comments_pop.js';
+import likes from './likesSubmit.js';
 
 const render = async () => {
   const likesJson = await getLikes();
@@ -8,11 +8,13 @@ const render = async () => {
   const characters = await getCharacters();
   characters.forEach(async (character, index) => {
     let likesTotal = 0;
+
     likesJson.forEach((likees) => {
       if (likees.item_id === index) {
         likesTotal = likees.likes;
       }
     });
+
     cards.innerHTML += ` <section class="card-section">
     <div class="card">
       <img src="${character.imageUrl}" class="card-img-top" alt="Character Image">

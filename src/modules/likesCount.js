@@ -1,4 +1,4 @@
-import { getLikes } from './apiConfig';
+import { getLikes } from './apiConfig.js';
 
 const likesCount = async (index) => {
   const likesJson = await getLikes();

@@ -1,6 +1,6 @@
 import './style.css';
-import render from './modules/render';
-import { commentSubmit } from './modules/commentSubmit';
+import render from './modules/render.js';
+import { commentSubmit } from './modules/commentSubmit.js';
 
 render();
 

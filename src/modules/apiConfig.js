@@ -58,5 +58,5 @@ const getLikes = async () => {
 };
 
 export {
-  getCharacters, getSpecificCharacter, postComment, getComment, postLikes, getLikes
+  getCharacters, getSpecificCharacter, postComment, getComment, postLikes, getLikes,
 };

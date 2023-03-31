@@ -1,5 +1,5 @@
-import { getSpecificCharacter } from './apiConfig';
-import { commentShow } from './commentSubmit';
+import { getSpecificCharacter } from './apiConfig.js';
+import { commentShow } from './commentSubmit.js';
 
 const popup = () => {
   const commenstBtn = document.querySelectorAll('.comments');

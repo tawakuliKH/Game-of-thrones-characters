@@ -1,5 +1,5 @@
-import { postLikes } from './apiConfig';
-import likesCount from './likesCount';
+import { postLikes } from './apiConfig.js';
+import likesCount from './likesCount.js';
 
 const likes = async () => {
   const likeBtn = document.querySelectorAll('.btn-like');
