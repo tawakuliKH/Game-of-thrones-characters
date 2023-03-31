@@ -259,7 +259,7 @@ I would like to thank Microverse for inspiring students doing such great things.
 
 - **How did you use to record the data dynamically**
 
-  - I am recording data in Leaderboard API and fetching it.
+  - I am recording data in Involement API Microverse and characters are fetched from Thrones API.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
